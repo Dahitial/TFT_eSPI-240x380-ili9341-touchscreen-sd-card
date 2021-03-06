@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>2.4_tft_spi</description>
+<packages>
+<package name="2.4_tft_spi">
+<pad name="14" x="0" y="0.75" drill="0.9" diameter="1.5" rot="R0" stop="yes" thermals="no"/>
+<pad name="13" x="-2.54" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="12" x="-5.08" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="11" x="-7.62" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="10" x="-10.16" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="9" x="-12.7" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="8" x="-15.24" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="7" x="-17.78" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="6" x="-20.32" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="5" x="-22.86" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="4" x="-25.4" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="3" x="-27.94" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="2" x="-30.48" y="0.75" drill="0.9" diameter="1.5" rot="R180" stop="yes" thermals="no"/>
+<pad name="1" x="-33.02" y="0.75" drill="0.9" shape="square" diameter="1.5" rot="R0" stop="yes" thermals="no"/>
+<pad name="15" x="-20.31" y="73.93" drill="0.9" shape="square" diameter="1.5" rot="R0" stop="yes" thermals="no"/>
+<pad name="16" x="-17.77" y="73.93" drill="0.9" diameter="1.5" rot="R0" stop="yes" thermals="no"/>
+<pad name="17" x="-15.23" y="73.93" drill="0.9" diameter="1.5" rot="R0" stop="yes" thermals="no"/>
+<pad name="18" x="-12.69" y="73.93" drill="0.9" diameter="1.5" rot="R0" stop="yes" thermals="no"/>
+<hole x="1.85" y="5.67" drill="3.2"/>
+<hole x="-34.87" y="5.67" drill="3.2"/>
+<hole x="1.85" y="72.93" drill="3.2"/>
+<hole x="-34.87" y="72.93" drill="3.2"/>
+<wire layer="21" width="0.12" x1="-37.87" y1="75.93" x2="4.85" y2="75.93"/>
+<wire layer="21" width="0.12" x1="4.85" y1="75.93" x2="4.85" y2="-1.25"/>
+<wire layer="21" width="0.12" x1="4.85" y1="-1.25" x2="-37.87" y2="-1.25"/>
+<wire layer="21" width="0.12" x1="-37.87" y1="-1.25" x2="-37.87" y2="75.93"/>
+<wire layer="21" width="0.12" x1="4.85" y1="9.16" x2="-37.87" y2="9.16"/>
+<wire layer="21" width="0.12" x1="4.85" y1="69.42" x2="-37.87" y2="69.42"/>
+</package>
+</packages>
+<symbols>
+<symbol name="2.4_TFT_SPI">
+<wire layer="94" width="0.25" x1="-105.85" y1="-4.26" x2="-50.07" y2="-4.26"/>
+<wire layer="94" width="0.25" x1="-50.07" y1="-4.26" x2="-50.07" y2="-43.41"/>
+<wire layer="94" width="0.25" x1="-50.07" y1="-43.41" x2="-105.85" y2="-43.41"/>
+<wire layer="94" width="0.25" x1="-105.85" y1="-43.41" x2="-105.85" y2="-4.26"/>
+<text x="-55.596" y="-44.23" size="0.987" layer="94" font="vector" ratio="10" rot="R0" align="top-center" distance="76">2.4 inch tft spi</text>
+<pin name="VCC" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-7.5400000000033"/>
+<pin name="GND" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-10.0800000000017"/>
+<pin name="CS" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-12.6200000000002"/>
+<pin name="RESET" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-15.1600000000035"/>
+<pin name="DC" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-17.7000000000019"/>
+<pin name="MISO" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-20.2400000000004"/>
+<pin name="SCK" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-22.7800000000037"/>
+<pin name="LED" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-25.3200000000021"/>
+<pin name="MOSI" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-27.7200000000012"/>
+<pin name="T_CLK" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-30.4000000000039"/>
+<pin name="T_CS" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-32.9400000000023"/>
+<pin name="T_DIN" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-35.4800000000008"/>
+<pin name="T_DO" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-38.0199999999992"/>
+<pin name="T_IRQ" visible="pin" length="short" direction="nc" x="-101.580000000003" y="-40.5600000000025"/>
+<pin name="SD_CS" visible="pin" length="short" direction="nc" rot="R180" x="-55.2900000000017" y="-19.6299999999998"/>
+<pin name="SD_MOSI" visible="pin" length="short" direction="nc" rot="R180" x="-55.2900000000017" y="-22.1700000000031"/>
+<pin name="SD_MISO" visible="pin" length="short" direction="nc" rot="R180" x="-55.2900000000017" y="-24.7100000000016"/>
+<pin name="SD_SCK" visible="pin" length="short" direction="nc" rot="R180" x="-55.2900000000017" y="-27.25"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2.4_TFT_SPI" prefix="">
+<gates>
+<gate name="PART_1" symbol="2.4_TFT_SPI" x="77.96" y="23.835"/>
+</gates>
+<devices>
+<device name="" package="2.4_tft_spi">
+<connects>
+<connect gate="PART_1" pin="VCC" pad="1"/>
+<connect gate="PART_1" pin="GND" pad="2"/>
+<connect gate="PART_1" pin="CS" pad="3"/>
+<connect gate="PART_1" pin="RESET" pad="4"/>
+<connect gate="PART_1" pin="DC" pad="5"/>
+<connect gate="PART_1" pin="MISO" pad="6"/>
+<connect gate="PART_1" pin="SCK" pad="7"/>
+<connect gate="PART_1" pin="LED" pad="8"/>
+<connect gate="PART_1" pin="MOSI" pad="9"/>
+<connect gate="PART_1" pin="T_CLK" pad="10"/>
+<connect gate="PART_1" pin="T_CS" pad="11"/>
+<connect gate="PART_1" pin="T_DIN" pad="12"/>
+<connect gate="PART_1" pin="T_DO" pad="13"/>
+<connect gate="PART_1" pin="T_IRQ" pad="14"/>
+<connect gate="PART_1" pin="SD_CS" pad="15"/>
+<connect gate="PART_1" pin="SD_MOSI" pad="16"/>
+<connect gate="PART_1" pin="SD_MISO" pad="17"/>
+<connect gate="PART_1" pin="SD_SCK" pad="18"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
